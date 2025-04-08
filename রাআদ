@@ -1,0 +1,94 @@
+import React from "react";
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-gray-100 text-gray-800 font-sans">
+      <header className="bg-gray-900 text-white py-10 text-center shadow">
+        <h1 className="text-4xl font-bold">রাআদ ইজামা</h1>
+        <p className="mt-2 text-lg">লেখালেখির অফিশিয়াল ওয়েবসাইট</p>
+      </header>
+
+      <nav className="bg-gray-800 text-white flex flex-wrap justify-center space-x-4 py-4 text-sm md:text-base">
+        <a href="#lyrics" className="hover:underline">লিরিক্স</a>
+        <a href="#poems" className="hover:underline">কবিতা</a>
+        <a href="#rhymes" className="hover:underline">ছড়া</a>
+        <a href="#stories" className="hover:underline">গল্প</a>
+        <a href="#novels" className="hover:underline">উপন্যাস</a>
+        <a href="#microverse" className="hover:underline">অনুকাব্য</a>
+        <a href="#films" className="hover:underline">চলচ্চিত্র</a>
+        <a href="#travel" className="hover:underline">ভ্রমণকাহিনি</a>
+        <a href="#translation" className="hover:underline">কাব্যানুবাদ</a>
+        <a href="#articles" className="hover:underline">প্রবন্ধ</a>
+        <a href="#photos" className="hover:underline">আলোকচিত্র</a>
+        <a href="#contact" className="hover:underline">যোগাযোগ</a>
+      </nav>
+
+      <section id="lyrics" className="max-w-4xl mx-auto p-6">
+        <h2 className="text-2xl font-semibold mb-4">লিরিক্স</h2>
+        <p className="text-gray-700">এখানে আপনার মৌলিক গানের কথা প্রকাশ করুন।</p>
+      </section>
+
+      <section id="poems" className="max-w-4xl mx-auto p-6">
+        <h2 className="text-2xl font-semibold mb-4">কবিতা</h2>
+        <p className="text-gray-700">আপনার লেখা কবিতা এখানে আপলোড করুন।</p>
+      </section>
+
+      <section id="rhymes" className="max-w-4xl mx-auto p-6">
+        <h2 className="text-2xl font-semibold mb-4">ছড়া</h2>
+        <p className="text-gray-700">ছোটদের জন্য বা ছন্দভিত্তিক ছড়া এখানে দিন।</p>
+      </section>
+
+      <section id="stories" className="max-w-4xl mx-auto p-6">
+        <h2 className="text-2xl font-semibold mb-4">গল্প</h2>
+        <p className="text-gray-700">গল্প আপলোড করার জন্য এই বিভাগ।</p>
+      </section>
+
+      <section id="novels" className="max-w-4xl mx-auto p-6">
+        <h2 className="text-2xl font-semibold mb-4">উপন্যাস</h2>
+        <p className="text-gray-700">দীর্ঘ লেখাসমূহ এখানে প্রকাশ করুন।</p>
+      </section>
+
+      <section id="microverse" className="max-w-4xl mx-auto p-6">
+        <h2 className="text-2xl font-semibold mb-4">অনুকাব্য</h2>
+        <p className="text-gray-700">ছোট ও গভীর কবিতার স্থান।</p>
+      </section>
+
+      <section id="films" className="max-w-4xl mx-auto p-6">
+        <h2 className="text-2xl font-semibold mb-4">চলচ্চিত্র</h2>
+        <p className="text-gray-700">চলচ্চিত্র ভাবনা, চিত্রনাট্য অথবা পরিকল্পনা এখানে শেয়ার করুন।</p>
+      </section>
+
+      <section id="travel" className="max-w-4xl mx-auto p-6">
+        <h2 className="text-2xl font-semibold mb-4">ভ্রমণকাহিনি</h2>
+        <p className="text-gray-700">আপনার ভ্রমণ অভিজ্ঞতা এখানে লিখুন।</p>
+      </section>
+
+      <section id="translation" className="max-w-4xl mx-auto p-6">
+        <h2 className="text-2xl font-semibold mb-4">কাব্যানুবাদ</h2>
+        <p className="text-gray-700">বিদেশি কবিতার রূপান্তর এখানে উপস্থাপন করুন।</p>
+      </section>
+
+      <section id="articles" className="max-w-4xl mx-auto p-6">
+        <h2 className="text-2xl font-semibold mb-4">প্রবন্ধ</h2>
+        <p className="text-gray-700">গভীর ভাবনা ও বিশ্লেষণমূলক লেখা দিন।</p>
+      </section>
+
+      <section id="photos" className="max-w-4xl mx-auto p-6">
+        <h2 className="text-2xl font-semibold mb-4">আলোকচিত্র</h2>
+        <p className="text-gray-700">আপনার তোলা ছবি আপলোড করুন এবং ক্যাপশন যুক্ত করুন।</p>
+      </section>
+
+      <section id="contact" className="max-w-4xl mx-auto p-6 text-center">
+        <h2 className="text-2xl font-semibold mb-4">যোগাযোগ করুন</h2>
+        <p className="text-lg">Email: raadizama@gmail.com</p>
+        <p className="text-lg">Telegram: @raad_izama</p>
+        <p className="text-lg">Phone: 01700000000</p>
+        <p className="text-lg">Address: মিরপুর, ঢাকা, বাংলাদেশ</p>
+      </section>
+
+      <footer className="bg-gray-900 text-white text-center py-6 mt-10">
+        <p>&copy; ২০২৫ রাআদ ইজামা। সমস্ত লেখা ও সৃষ্টি আল্লাহর নামে উৎসর্গকৃত।</p>
+      </footer>
+    </main>
+  );
+}
